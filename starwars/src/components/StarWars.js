@@ -4,7 +4,7 @@ import './StarWars.css'
 const StarWars = props =>{
     return (
         <div className='starWars'>
-            <div className='flex'>
+            <div className='listEl'>
                 <div className='elements'>
                     <p><strong>Name:</strong> {props.charList.name}</p>
                 </div>

@@ -1,7 +1,15 @@
-.flex {
+
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+.listEl {
     width: 300px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    margin: 10px auto;
     z-index: 10;
     position: relative;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
